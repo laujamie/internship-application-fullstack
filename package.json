@@ -2,15 +2,18 @@
   "private": true,
   "name": "worker",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "An implementation of the Cloudflare Full Stack Internship Challenge 2020",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write '**/*.{js,css,json,md}'"
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "build": "webpack index.js"
   },
-  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+  "author": "Jamie Lau <hello@jamielau.me>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
